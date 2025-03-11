@@ -1,0 +1,39 @@
+default: # группа по умолчанию, параметры отсюда должны наследоваться на все группы
+  hosts: # список серверов
+    2404: # имя сервера
+      password: 123123 # пароль от сервера
+    2204:
+      password: 312 # пароль от сервера
+      user: ubuntu
+  password: pass
+  port: 22
+  ssh_key: ./ssh/id_rsa # путь к ключу ssh
+  user: root # если у сервера не определен пользователь, то по умолчанию будет использоваться пользователь root
+  vars: # свободная структура данных, тут могут быть любые json структуры 
+    timezone: UTC+3
+  env: master
+
+webservers:
+  hosts:
+    2404:
+      address: 192.168.122.24
+  vars:
+    web: ["php-fpm","nginx"]
+
+fileservers:
+  hosts:
+    2204:
+      address: 192.168.122.22
+    server2:
+      address: 192.168.0.12
+      vars:
+        abra: cadabra
+  vars:
+    web: ["apache2"]
+    timezone: UTC+4
+
+group3:
+  hosts:
+    server3:
+      address: 192.168.0.13
+      ssh_key: ./id_rsa3

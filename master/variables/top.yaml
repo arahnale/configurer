@@ -1,0 +1,86 @@
+- default:
+  - service.ssh
+  - config.bash
+  - repos.aptly
+
+- name:2404: # host означает что требуется производить проверку по признаку имени сервера
+  - service.timezone
+
+
+
+
+
+
+
+
+
+
+
+
+
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: CSR_RESET = 0x10
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: Host monitor block 0x0 vector 0x0
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 0]: 0x3f7f8430
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 1]: 0x3f7f0030
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 2]: 0x3f7f8c30
+фев 18 08:32:51 localhost kernel: ee1004 1-0055: 512 byte EE1004-compliant SPD EEPROM, read-only
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 3]: 0x3f7f8c30
+фев 18 08:32:51 localhost kernel: Loading firmware: intel/ibt-20-1-3.sfi
+фев 18 08:32:51 localhost kernel: br0: port 1(enp68s0) entered blocking state
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 4]: 0x3f7f0830
+фев 18 08:32:51 localhost kernel: br0: port 1(enp68s0) entered disabled state
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 5]: 0x3f7f8830
+фев 18 08:32:51 localhost kernel: ee1004 1-0057: 512 byte EE1004-compliant SPD EEPROM, read-only
+фев 18 08:32:51 localhost kernel: atlantic 0000:44:00.0 enp68s0: entered allmulticast mode
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 6]: 0x3f7f8c30
+фев 18 08:32:51 localhost kernel: atlantic 0000:44:00.0 enp68s0: entered promiscuous mode
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 7]: 0x3f7f8030
+фев 18 08:32:51 localhost kernel: Bluetooth: hci0: Found device firmware: intel/ibt-20-1-3.sfi
+фев 18 08:32:51 localhost kernel: Bluetooth: hci0: Boot Address: 0x24800
+фев 18 08:32:51 localhost kernel: Bluetooth: hci0: Firmware Version: 132-3.24
+фев 18 08:32:51 localhost kernel: Bluetooth: hci0: Firmware already loaded
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 8]: 0x3f7f8030
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 9]: 0x3f7f8830
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 10]: 0x3f7f0830
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 11]: 0x3f7f8c30
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 12]: 0x3f7f8c30
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 13]: 0x3f7f0c30
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 14]: 0x3f7f8430
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: Host monitor block 0x0 vector 0x1
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 0]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 1]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 2]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 3]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 4]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 5]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 6]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 7]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 8]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 9]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 10]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 11]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 12]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 13]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 14]: 0x044466c2
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: Host monitor block 0x0 vector 0x6
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 0]: 0xe00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 1]: 0xe00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 2]: 0xa00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 3]: 0xa00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 4]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 5]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 6]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 7]: 0xa00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 8]: 0xe00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 9]: 0xa00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 10]: 0xa00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 11]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 12]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 13]: 0xf00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 14]: 0xb00c4471
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: Host monitor block 0x22 vector 0x0
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0:     value [iter 0]: 0x00000000
+фев 18 08:32:51 localhost kernel: iwlwifi 0000:48:00.0: probe with driver iwlwifi failed with error -110
+фев 18 08:32:51 localhost kernel: Bluetooth: hci0: HCI LE Coded PHY feature bit is set, but its usage is not supported.
+
+eselect wireless driver list

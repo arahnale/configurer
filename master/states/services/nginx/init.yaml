@@ -1,0 +1,31 @@
+- include:
+  - services.nginx.install
+
+- cmd:
+    run: echo $ENV
+    ontrue_set: # в случае успеха присвоить значение переменной
+    ontrue_cmd: # выполнить команду
+    ontrue_state: # выполнить стейт
+    onfalse_set: # 
+    onfalse_cmd: 
+    onfalse_state: 
+    onequals: # сравнить возврат, если он равен, то можно выполнить onequals_cmd или onequals_state
+    onequals_cmd:
+    onequals_state:
+    unless: # 
+    if: # 
+    user: 
+    shell:
+    env:
+    failhard_local: # сломаться и прекратить выполнение стейта, в случае ошибки
+    failhard_global: # сломаться и прекратить выполнение стейта, в случае ошибки
+
+
+
+- file:
+    onchange_state: services.nginx.restart
+    onchange_set: need_nginx_reload=True
+    template:
+      local: local_env
+
+

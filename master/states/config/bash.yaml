@@ -1,0 +1,8 @@
+- include:
+   - config.bash.config
+
+- file:
+    path: /root/.bashrc
+    sources: 
+      - /files/default/bashrc
+      - /files/host.Name/bashrc

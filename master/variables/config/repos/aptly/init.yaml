@@ -1,0 +1,6 @@
+repo:
+  __state__: True
+  repos_list:
+    aptly:
+      url: http://qweqew.qweqwe stable deb
+      key: http://qweqwe.qwqwe/key

@@ -1,0 +1,8 @@
+- timezone:
+  - services.timezone
+- bash:
+  - config.bash
+- syslog-ng:
+  - services.syslog-ng
+- nginx:
+  - services.nginx

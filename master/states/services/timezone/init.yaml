@@ -1,0 +1,2 @@
+- cmd:
+    run: timedatectl set-timezone Europe/Moscow
